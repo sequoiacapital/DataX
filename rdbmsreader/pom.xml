@@ -45,6 +45,13 @@
             <scope>system</scope>
             <systemPath>${basedir}/src/main/libs/edb-jdbc16.jar</systemPath>
         </dependency>
+		<dependency>
+			<groupId>com.simba</groupId>
+			<artifactId>googlebigquery</artifactId>
+			<version>1.1.6.1006</version>
+			<scope>system</scope>
+			<systemPath>${basedir}/src/main/libs/GoogleBigQueryJDBC42.jar</systemPath>
+		</dependency>
 
 		<dependency>
 			<groupId>org.slf4j</groupId>
